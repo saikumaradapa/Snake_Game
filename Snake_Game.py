@@ -198,6 +198,7 @@ pygame.time.set_timer(SCREEN_UPDATE, 150)
 
 main_game = MAIN()
 
+
 while True:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
