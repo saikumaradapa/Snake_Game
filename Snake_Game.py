@@ -220,6 +220,7 @@ game_font = pygame.font.Font('Font/PoetsenOne-Regular.ttf', 25)
 SCREEN_UPDATE = pygame.USEREVENT
 pygame.time.set_timer(SCREEN_UPDATE, 150)
 
+
 main_game = MAIN()
 
 # Main game loop.
